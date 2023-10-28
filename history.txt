@@ -1,0 +1,49 @@
+   0 apk add git nvim curl g++ python3
+   1 apk add git neovim curl g++ python3
+   2 cd /root/
+   3 mkdir .config
+   4 cd .config/
+   5 mkdir nvim
+   6 cd nvim
+   7 nvim
+   8 mkdir lua
+   9 nvim init.lua
+  10 cd lua
+  11 mkdir config
+  12 mkdir plugins
+  13 cd ..
+  14 ls
+  15 nvim init.lua
+  16 nvim .
+  17 cd..
+  18 cd ..
+  19 cd nvim
+  20 nvim .
+  21 apk add ripgrep
+  22 nvim .
+  23 ls
+  24 cd lua
+  25 ls
+  26 cd ..
+  27 move lua/after/ after
+  28 mv lua/after/ after
+  29 nvim .
+  30 mv after/telescope.lua after/plugin/
+  31 nvim
+  32 nvim .
+  33 rm lua/plugins/example.lua
+  34 nvim .
+  35 npm
+  36 apk add npm
+  37 npm -i -g pyright
+  38 npm i -g pyright
+  39 nvim .
+  40 nvim test.py
+  41 python test.py
+  42 nvim test.py
+  43 python test.py
+  44 history
+  45 nvim .
+  46 mv lua/config/keymaps.lua lua/config/settings.lua
+  47 nvim .
+  48 history
